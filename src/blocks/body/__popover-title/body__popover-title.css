@@ -1,0 +1,8 @@
+.body__popover-title {
+    margin: 0;
+    padding: 10px 15px;
+
+    background-color: rgb(218, 218, 218);
+    border-bottom: solid 1px black;
+    border-radius: 10px 10px 0 0;
+}
