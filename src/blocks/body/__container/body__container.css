@@ -1,0 +1,8 @@
+.body__container {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    max-width: 300px;
+}
