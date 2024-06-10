@@ -11,19 +11,28 @@
 
 .body__button {
     background-color: brown;
+    border-radius: 10px 10px;
     color: white;
     border: none;
     padding: 20px;
+}
+
+.body__button:hover {
+    background-color: rgb(134, 37, 37);
 }
 
 .body__popover {
     position: absolute;
     bottom: 60px;
 
+    z-index: 9;
+
     min-width: 250px;
 
     border: solid 1px black;
     border-radius: 10px;
+
+    background-color: #fff;
 }
 .body__popover-title {
     margin: 0;
