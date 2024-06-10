@@ -1,6 +1,11 @@
 .body__button {
     background-color: brown;
+    border-radius: 10px 10px;
     color: white;
     border: none;
     padding: 20px;
+}
+
+.body__button:hover {
+    background-color: rgb(134, 37, 37);
 }

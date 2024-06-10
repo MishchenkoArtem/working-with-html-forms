@@ -2,8 +2,12 @@
     position: absolute;
     bottom: 60px;
 
+    z-index: 9;
+
     min-width: 250px;
 
     border: solid 1px black;
     border-radius: 10px;
+
+    background-color: #fff;
 }
