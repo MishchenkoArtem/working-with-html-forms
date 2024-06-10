@@ -1,0 +1,2 @@
+(()=>{"use strict";var e=document.querySelector(".body__button"),t=document.querySelector(".body__popover");e.addEventListener("click",(function(){t.classList.toggle("body__popover_invisible")})),document.querySelector(".body").addEventListener("click",(function(e){e.currentTarget.className===e.target.className&&t.classList.add("body__popover_invisible")}))})();
+//# sourceMappingURL=main.js.map
