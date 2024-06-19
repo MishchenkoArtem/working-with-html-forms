@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
 
-describe('Page start', () => {
-    let browser;
+describe('Page start', async () => {
+    const browser = await puppeteer.launch(); 
 
     beforeEach(() => {
-        browser = puppeteer.launch({
+        browser = ({
             headless: false,
             slowMo: 100,
             devtools: true
